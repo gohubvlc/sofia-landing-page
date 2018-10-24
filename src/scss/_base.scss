@@ -1,0 +1,110 @@
+:root {
+  font-size: 14px;
+  @include breakpoint(sm) {
+    font-size: 16px;
+  }
+}
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+// Scrollto fixed header fix
+:target:before {
+  content: "";
+  display: block;
+  height: 90px; /* fixed header height*/
+  margin: -90px 0 0; /* negative fixed header height */
+}
+
+body {
+  height: 100%;
+  background-color: #fff;
+  font-family: $primary-font;
+  font-weight: $font-weight-regular;
+  background-color: #fff;
+  color: $gray-body;
+  &.no-scroll-y {
+    overflow-y: hidden;
+  }
+}
+
+#{$a-tags} {
+  color: $primary-red;
+}
+#{$a-tags-hover} {
+  color: darken($primary-red, 10%);
+}
+
+::placeholder {
+  color: gray;
+}
+
+//
+// Headings
+//
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: $secondary-font;
+  font-weight: $font-weight-bold;
+}
+
+h1,
+.h1 {
+  font-size: 32px;
+  @include breakpoint(md) {
+    font-size: 38px;
+  }
+  font-weight: $font-weight-light;
+  b {
+    font-weight: $font-weight-bold;
+  }
+}
+h2,
+.h2 {
+  font-size: 20px;
+  @include breakpoint(md) {
+    font-size: 28px;
+  }
+  font-weight: $font-weight-light;
+  b {
+    font-weight: $font-weight-bold;
+  }
+}
+h3,
+.h3 {
+  //   font-size: $h3-font-size;
+}
+h4,
+.h4 {
+  //   font-size: $h4-font-size;
+}
+h5,
+.h5 {
+  //   font-size: $h5-font-size;
+}
+h6,
+.h6 {
+  //   font-size: $h6-font-size;
+}
+
+.lead {
+  font-weight: $font-weight-semi-bold;
+  font-size: 1.25rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}

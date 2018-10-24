@@ -1,0 +1,33 @@
+.btn-sofia {
+    color: #fff !important;
+    background-color: transparent; 
+    border-color:  rgba(255,255,255,0.7);
+    border-radius: 28px;
+    font-size: 14px;
+    @include breakpoint(md){
+        font-size: 18px;
+    }
+    padding: 0.8rem 1.4rem;
+    &:hover,
+    &:focus,
+    &.focus {
+        background-color: transparent ;
+        border-color:  rgba(255,255,255,0.3);
+        color: rgba(255,255,255,0.7) !important;
+        box-shadow: none;
+    }
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled).active {
+        background-color: transparent ;
+        border-color:  rgba(255,255,255,0.3);
+        color: rgba(255,255,255,0.7) !important;
+        box-shadow: none;
+    }
+    &:not(:disabled):not(.disabled):active:focus,
+    &:not(:disabled):not(.disabled).active:focus {
+        background-color: transparent ;
+        border-color:  rgba(255,255,255,0.3);
+        color: rgba(255,255,255,0.7) !important;
+        box-shadow: none;
+    }
+  }

@@ -1,0 +1,11 @@
+// Vendor libs
+// Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+// Fontawesome 5.1 Pro
+@import 'vendors/font-awesome-5/fontawesome';
+@import 'vendors/font-awesome-5/fa-brands';
+@import 'vendors/font-awesome-5/fa-light';
+@import 'vendors/font-awesome-5/fa-regular';
+@import 'vendors/font-awesome-5/fa-solid';
+// Vendor libs modifications
+@import 'vendors/bootstrap-sofia';

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SofiA - Your collaborative Fire Prevention Intelligence</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/libs/aos.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+</head><body>
+  <div class="container-fluid h-100 p-0">
+    <div class="row justify-content-center h-100 ">
+       <div class="c-map col-md-6 order-1 order-md-0">
+           <h4 class="c-map__current-fires"><b>8</b> fire alarms / <b>23</b> confirmed fires </h4>
+           <div id='map'></div>
+       </div>      <div class="c-sofia col-md-6 order-0 order-md-1">
+          <div class="c-sofia__wrapper">
+              <img class="c-sofia__logo" src="./images/logo-sofia.svg" />
+              <div class="c-sofia__content">
+                  <div class="c-sofia__text">
+                      <h1 class="">Hello<br />I'm <b>SofiA</b></h1>
+                      <h2 class="" id="text-shuffle">Your collaborative<br /><b>Fire Prevention</b> Intelligence</h2>
+                      <a class="btn btn-primary btn-sofia " href="https://2018.spaceappschallenge.org/challenges/volcanoes-icebergs-and-asteroids-oh-my/real-time-fire-app/teams/gohub/project"
+                          target="_blank">READ MORE</a>
+                  </div>
+      
+                  <canvas class="c-sofia__webgl" id="scene"></canvas>
+              </div>
+              <footer class="c-sofia__footer">
+                  <div class="d-flex align-content-center justify-content-end">
+                      <div class="d-inline-block mr-2 mr-md-5">
+                          <a href="https://2018.spaceappschallenge.org/challenges/volcanoes-icebergs-and-asteroids-oh-my/real-time-fire-app/teams/gohub/project" target="_blank" class="mr-1">
+                              <img src="./images/Get_it_on_Google_play.svg" />
+                          </a>
+                          <a href="https://2018.spaceappschallenge.org/challenges/volcanoes-icebergs-and-asteroids-oh-my/real-time-fire-app/teams/gohub/project" target="_blank">
+                              <img src="./images/Download_on_the_App_Store_Badge.svg" />
+                          </a>
+                      </div>
+                      <div class="d-inline-block">
+                          <a href="https://2018.spaceappschallenge.org/challenges/volcanoes-icebergs-and-asteroids-oh-my/real-time-fire-app/teams/gohub/project" target="_blank"> <i class="fab fa-facebook-square mr-1"></i></a>
+                          <a href="https://2018.spaceappschallenge.org/challenges/volcanoes-icebergs-and-asteroids-oh-my/real-time-fire-app/teams/gohub/project" target="_blank"> <i class="fab fa-twitter-square mr-1 mr-md-3"></i></a>
+                      </div>
+                  </div>
+              </footer>
+          </div>
+      
+      </div>    </div>
+  </div>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+  
+  <script src="js/libs/three.min.js"></script>
+  <script src="js/libs/shaders/CopyShader.min.js"></script>
+  <script src="js/libs/shaders/DigitalGlitch.min.js"></script>
+  
+  <script src="js/libs/postprocessing/EffectComposer.min.js"></script>
+  <script src="js/libs/postprocessing/RenderPass.min.js"></script>
+  <script src="js/libs/postprocessing/MaskPass.min.js"></script>
+  <script src="js/libs/postprocessing/ShaderPass.min.js"></script>
+  <script src="js/libs/postprocessing/GlitchPass.min.js"></script>
+  
+  
+  <script src="js/libs/perlin.min.js"></script>
+  <script src="js/libs/shuffle-text.min.js"></script>
+  
+  
+  
+  <script src="js/libs/jquery.min.js"></script>
+  <script src="js/libs/bootstrap.bundle.min.js"></script>
+  <script src="js/libs/TweenMax.min.js"></script>
+  <script src="js/libs/SplitText.min.js"></script>
+  <script src="js/libs/jquery.gsap.min.js"></script>
+  <script src="js/libs/aos.min.js"></script>
+  <script src="js/bundle.js"></script>
+  
+  <script src="js/libs/CustomWebGL.min.js"></script></body>
+
+</html>
