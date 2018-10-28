@@ -1,6 +1,6 @@
 # SofiA (Social Fire Alarm)
 
-Promotional landing page for Sofía project. See the [Online Demo](https://gohubvlc.github.io/sofia-landing-page/dist/index.html)
+Promotional landing page for Sofia project. See the [Online Demo](https://gohubvlc.github.io/sofia-landing-page/dist/index.html)
 
 It's just and approch about how to report to the citicents the existence of Sofia Project and how it works. The main target was create a brand website with high user experience level redirecting the users to the APP stores because Sofia works in the background for you while you are watching this website. 
 
